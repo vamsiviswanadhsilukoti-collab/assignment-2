@@ -1,0 +1,32 @@
+Report
+
+
+A sample of n=25 the sample glucose mean =116.64 is kind off below than the population mean 120.90
+
+Sample max=183 is lower than compared to the pop max =199.
+
+For a sample 98th percentile of BMI which is way too below the population 98th percentile than is 40.25<47.53. 
+
+98th percentile of BMI 
+Population 98th per = 47.53
+Sample 98 per = 40.25
+
+Bootstrap analysis
+
+Bootstrap result b=500, n=150 creates sample-stats distribution located very near the true population statistics for BP.
+
+The avg of the bootstrap mean/standard dev/98th per nearly matches the population value, rep that bootstrap sampling outputs unbiased evaluation for the statistics and helps variable sampling 
+
+Population stats
+
+Mean = 69.11
+Standard Deviation = 19.34
+98th percentile = 99.32
+
+Bootstrap averages
+
+Mean = 69.18
+Standard Deviation = 19.11
+98th percentile = 98.25
+
+Histogram represents the bootstrapping distribution which shows the mean ad percentile that are located closely to the population stats. That shows the bootstrap method giving credible estimation and shows variability expected in repeated sample
